@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="/functions.js"></script>
+</head>
+
+<body>
+    <div class="headerForm">
+    <form class="form"> 
+        <br>
+        <p class="Title"> Subscription Form</p>
+    </form>
+    </div>
+    <div class="boxfields">
+        <form class="subscriptionForm">
+            <table>
+            <tr><td>
+            <label class="field0"  for="name"> Name: </label> <input class="field" id="name" type="text" name="name" value="">  <p class="displayField" id="displayName">   </p></b>
+            </td></tr>
+            <tr><td>
+            <label class="field0" for="surname">Surname:</label> <input class="field" id="surname" type="text" name="surname" value=""> <p class="displayField" id="displaySurname"></p>
+            </td></tr>
+            <tr><td>
+            <label class="field0" for="CF">Fiscal Code:</label> <input class="field" id="CF" type="text" name="CF" value=""> <p class="displayField" id="displayCF"></p>
+            </td></tr>
+            <tr><td>
+            <label class="field0" for="dateOfBirth">Date of Birth:</label> <input class="field" id="dateOfBirth" type="text" name="dateOfBirth" value=""> <p class="displayField" id="displayDateOfBirth"></p>
+            </td></tr>
+            <tr><td>
+            <label class="field0" for="address">Address:</label> <input class="field" id="address" type="text" name="address" value=""> <p class="displayField" id="displayAddress"></p>
+            </td></tr>
+            <tr><td>
+            <label class="field0" for="email">Email:</label> <input class="field" id="email" type="text" name="email" value=""> <p class="displayField" id="displayEmail"></p>
+            </td></tr>
+             <tr><td>
+            <label class="field0" for="number">Phone Number:</label> <input class="field" id="number" type="text" name="number" value=""> <p class="displayField" id="displayNumber"></p>
+            </td></tr>
+            <tr><td>
+            <label class="field0" for="occupation">Occupation:</label> <input class="field" id="occupation" type="text" name="occupation" value=""> <p class="displayField" id="displayOccupation"></p>
+            </td></tr>
+            <tr><td>
+            <input class="subscriptionButton" id="signInButton" type="button" value="Sign In"> <input class="subscriptionButton1" id="save" type="button" value="Save Info Below">
+            </td></tr>
+        </table>
+        </form>
+    </div>
+
+    <div class="headerForm">
+        <form class="form"> 
+            <br>
+            <p class="Title"> Saved Data</p>
+        </form>
+        </div>
+    <form class="subscriptionForm">
+    <table > 
+        <tr> 
+            <td id="0"> Name </td>
+            <td id="1"> Surname </td>
+            <td id="2"> Fiscal Code </td>
+            <td id="3"> Date of Birth </td>
+            <td id="4"> Address </td>
+            <td id="5"> Email </td>
+            <td id="6"> Phone number </td>
+            <td id="7"> Occuoation </td>
+        </tr>
+        
+        <tr>
+            <td > <p id="8"></p> </td>
+            <td > <p id="9"></p> </td>
+            <td > <p id="10"></p> </td>
+            <td > <p id="11"></p> </td>
+            <td > <p id="12"></p> </td>
+            <td > <p id="13"></p> </td>
+            <td > <p id="14"></p> </td>
+            <td > <p id="15"></p> </td>
+        </tr>
+       
+    </table>
+</form>
+</body>
+</html>
